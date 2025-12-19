@@ -1,0 +1,182 @@
+        
+        /* Global Styles */
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+        /* Navigation Bar Styles */
+
+/* Navigation Bar Container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left:  20px;
+    padding-right: 20px;
+    height: 79px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation List Styles */
+ul {
+    display: flex;
+    gap: 70px;
+    list-style-type: none;
+    color: rgba(74, 85, 104, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Navigation Link Styles */
+li:hover {
+    color: rgba(102, 117, 247, 1);
+    cursor: pointer;
+}
+
+/* Logo Styles */
+.logo {
+    height: 35px;
+    width: 150px;
+}
+
+/* Navigation Button Styles */
+.nav-button {
+    background: linear-gradient(to top right, rgba(87, 0, 123, 1) 0%, rgba(102, 117, 247, 1) 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+        /* Header Styles*/
+
+/* Header Container */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+    gap: 40px;
+}
+
+/* Header Text styles */
+.header-text-style {
+    font-size: 53px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 71px;
+}
+
+/* Gradient Text Classes */
+.text-gradient-one {
+    background: linear-gradient(to top, rgba(13, 28, 159, 0.25) 0%, rgba(222, 67, 150, 1) 60%);
+    background-clip: text;
+    color: transparent;
+}
+
+/* Gradient Text Classes */
+.text-gradient-two {
+    background: linear-gradient(to top right, rgba(64, 106, 255, 1) 0%, rgba(247, 102, 111, 1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+/* Bold Text Class */
+.bold-text {
+    font-weight: 800;
+}
+
+/* Second Header Text styles */
+.second-header-text-style {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(74, 85, 104, 1);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 36px;
+}
+
+/* Header Button Styles */
+.header-button {
+    background: rgba(61, 99, 234, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+        /* Circle Gradient */
+
+/* Circle Gradient Styles */
+.circle-gradient {
+    position: absolute;
+    background: linear-gradient(to bottom left, rgba(247, 102, 128, 1) 0%, rgba(87, 0, 123, 1) 100%);
+    border-radius: 50%;
+}
+
+/* Circle Size 72px */
+.circle-size-one {
+    width: 72px;
+    height: 72px;
+}
+
+        /* First Section */
+
+/* First Section Container */
+.first-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    background-color: rgba(249, 249, 255, 1);
+    border: solid 1px rgba(231, 218, 237, 1);
+}
+
+/* H2 style */
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 55px;
+    color: rgba(26, 32, 44, 1);
+}
+
+
+.border-gradient-one {
+    border-radius: 7px;
+    border: 1px solid transparent;
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to top right, rgba(87, 0, 123, 1), rgba(247, 102, 128, 1)) border-box;
+}
+
+.circle-border-gradient{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to top right, rgba(87, 0, 123, 1) 0%, rgba(247, 102, 128, 1) 70%) border-box;
+}
+
+.text-gradient-three {
+    background: linear-gradient(to top right, rgba(87, 0, 123, 1) 0%, rgba(247, 102, 128, 1) 75%);
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 137%;
+}
